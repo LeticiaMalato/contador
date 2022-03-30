@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-height: 100vh;
+    background: #32A68D;
+    color: white;
+    display: grid;
+    place-items: center;
+    border-radius: 50px;
+}
+
+/* card */
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    padding: 80px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 20%)
+    
+}
+
+/* estilizar o botão */
+.btn{
+    font-family: arial;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+/*mudar a cor de dento do botão*/
+.btn-grey{
+    background:#A9A9A9;
+    box-shadow: 0 4px 0 grey;
+    color: #fff
+
+    
+}
+/* passar mouse por cima e mudar a cor*/
+.btn-grey:hover{
+    background: grey;
+    box-shadow: 0 4px 0 grey;
+    color:#fff
+
+}
+/*sensação de estar apertando o botão*/
+.btn-grey:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+   
+
+}
+
+/*numero*/
+p {
+    font-size: 100px;
+}
+
